@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navegacao">
+        <ul class="links-navegacao">
+            <li class="link-navegacao home">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="link-navegacao servicos">
+                <a href="servicos.html">Serviços</a>
+
+            </li>
+            <li class="link-navegacao contato">
+                <a href="contato.html">Contato</a>
+            </li>
+            <li class="link-navegacao curriculo">
+                <a href="curriculo.html">Currículo</a>
+            </li>
+        </ul>
+    </div>
+   
+    <div class="conteudo-pagina-contato">
+        <h1 class="titulo">Contato Para Orçamento</h1>
+
+        <form class="formulario-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+            <div>
+                <label for="CPF">Pessoa Física</label>
+                <input type="radio" name="pessoa" id="CPF">
+                <label for="PJ">Pessoa Jurídica</label>
+                <input type="radio" name="pessoa" id="PJ">
+            </div>
+            <select name="" id="">
+                <option value="lp">Landing Page</option>
+                <option value="lp">Site Completo</option>
+                <option value="lp">Correção de Bugs</option>
+                <option value="lp">Consultoria</option>
+            </select>
+
+            <label for="mensagem">Observações:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

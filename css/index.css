@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #6290C8;
+}
+
+a {
+    text-decoration: none;
+    color: #1D3461;
+}
+
+.navegacao {
+    box-shadow: 1px 0px 10px #00000080;
+    position: sticky;
+    top: 20px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.navegacao .links-navegacao {
+    list-style: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.conteudo-pagina {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px #00000040;
+}
+
+/* CURRICULO */
+
+.link a,
+.link {
+    margin: 5px 0px;
+    color: #FF6663;
+}
+
+.cabeçalho {
+    width: 300px;
+    padding: 20px;
+    background-color: #cccccc;
+}
+
+.cabeçalho .titulo-principal {
+    margin-bottom: 10px;
+    font-size: 56px;
+}
+
+.cabeçalho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.cabeçalho .subtitulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cabeçalho .titulo-infos-pessoais {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.cabeçalho .infos-pessoais {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.cabeçalho .info-pessoal {
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.cabeçalho .titulo-educacao {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.cabeçalho .educacao {
+    font-size: 18px;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.conteudo .titulo-experiencias {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.conteudo .experiencias {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.conteudo-experiência {
+    margin: 20px 0px;
+}
+
+.conteudo .titulo-hobby {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.conteudo .hobbies {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.conteudo .sobre {
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.conteudo .titulo-links {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.conteudo .links {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* CONTATO */
+
+.conteudo-pagina-contato {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000040;
+}
+
+.conteudo-pagina-contato .titulo {
+    text-align: center;
+}
+
+.conteudo-pagina-contato form radio,
+.conteudo-pagina-contato form select,
+.conteudo-pagina-contato form label {
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.conteudo-pagina-contato form textarea {
+    border-radius: 8px;
+    border: 2px solid #1D3461;
+    padding: 8px;
+}
+
+.conteudo-pagina-contato form select,
+.conteudo-pagina-contato form input {
+    border-radius: 50px;
+    border: 2px solid #1D3461;
+    padding: 8px;
+}
+
+.conteudo-pagina-contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.conteudo-pagina-contato form button {
+    background-color: #3F6634;
+    border: none;
+    color: #EDFFEC;
+    padding: 8px 16px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto 0px;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.conteudo-pagina-contato form button:hover {
+    opacity: 0.8;
+}
+
+/* SERVICOS */
+
+.conteudo-pagina-servicos {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000040;
+}
+
+.conteudo-pagina-servicos .titulo-servicos {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 56px;
+}
+
+.conteudo-pagina-servicos .servico {
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.conteudo-pagina-servicos .servico>div {
+    flex: 1;
+}
+
+.conteudo-pagina-servicos video,
+.conteudo-pagina-servicos img {
+    width: 400px;
+    height: auto;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.conteudo-pagina-servicos .titulo-landing {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.conteudo-pagina-servicos .descricao-landing {
+    text-align: justify;
+}
+
+.conteudo-pagina-servicos .descricao-landing ol {
+    padding-left: 20px;
+}
+
+.conteudo-pagina-servicos .descricao-landing p,
+.conteudo-pagina-servicos .descricao-landing li {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.titulo-tabela {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.tabela-servicos * {
+    border: 1px solid #FF6663;
+}
+
+/* HOME */
+
+.conteudo-pagina-home {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px #00000040;
+}
+
+.conteudo-pagina-home img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+}
+
+.titulo-home {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 56px;
+}
+
+.sobre {
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.atual *,
+.atual {
+    color: #FF6663;
+}
+
+.titulo-habilidades {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    list-style: none;
+}
+
+.habilidade {
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+.titulo-futuro {
+    font-size: 36px;
+    margin: 20px 0px;
+}
+
+.futuro {
+    font-size: 20px;
+}
